@@ -8,11 +8,7 @@
 var userUnit = preferences.rulerUnits;
 preferences.rulerUnits = Units.PIXELS;
 
-if ($.os.indexOf('Mac') >= 0) {
-	var BR = String.fromCharCode(10);
-} else {
-	var BR = String.fromCharCode(13);
-}
+var BR = String.fromCharCode(13);
 
 function SplitMultiLine() {
 }
